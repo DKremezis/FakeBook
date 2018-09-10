@@ -3342,6 +3342,12 @@
     <Compile Include="server\node_modules\xmlhttprequest-ssl\tests\test-request-protocols.js" />
     <Compile Include="server\node_modules\yeast\index.js" />
     <Compile Include="server\server.js" />
+    <Content Include=".env">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include=".gitignore">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\css\index.css" />
     <Content Include="public\index.html" />
     <Content Include="public\SignUpPage.html">
