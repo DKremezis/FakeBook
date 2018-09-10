@@ -1,10 +1,11 @@
-const sql = require('mssql')
+require('dotenv').config();
+const sql = require('mssql');
 
 var config = {
-       server : 'vdkremezis.database.windows.net',
-       user: 'vdkremezis',
-       password: 'C@mpnou22350',
-       database : 'FakeBook',
+    server: process.env.DB_SERVER,
+    user: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
        options:{
            encrypt: true
        }
