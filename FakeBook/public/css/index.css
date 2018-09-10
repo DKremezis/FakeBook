@@ -1,0 +1,115 @@
+  body{
+
+    margin: 0;
+    padding: 0;
+
+  }
+
+  #top-bar{
+
+    width: auto;
+    height: 50px;
+    background-color: #D5DBDB;
+
+  }
+
+  #logo-space{
+
+      width: auto;
+      height: 180px;
+
+  }
+
+  #logo{
+
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Oleo Script', cursive;
+    color: #CACFD2;
+    font-border: red;
+    -webkit-text-stroke-width: 0.001px;
+    -webkit-text-stroke-color: #5D6D7E;
+    text-shadow:
+              3px 3px 0 #5D6D7E,
+           -1px -1px 0 #5D6D7E,
+            1px -1px 0 #5D6D7E,
+            -1px 1px 0 #5D6D7E,
+             1px 1px 0 #5D6D7E;
+
+  }
+
+  #middle-bar{
+
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #D5DBDB;
+    text-align: center;
+
+
+  }
+
+  #labelField{
+
+    float: left;
+
+  }
+
+  #input-field{
+
+    float: left;
+
+  }
+
+  #bttnField{
+
+    float: left;
+    margin-left:5px;
+
+  }
+
+  #allFields{
+
+    margin-top: 30px;
+    display: inline-block
+
+  }
+
+  #passwordBtn{
+
+    margin-top: 20px;
+
+  }
+
+  #foot{
+
+    margin-top: 20px;
+
+  }
+
+  .label{
+
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .inputBox{
+
+    margin-top: 14px;
+    margin-left: 5px;
+    height: 25px;
+    width: 300px;
+    border: none;
+    box-shadow: 1px 1px grey;
+
+  }
+
+  #submitBttn{
+
+  }
+
+  #clear{
+
+    clear: both;
+
+  }
